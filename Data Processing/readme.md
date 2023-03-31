@@ -24,8 +24,7 @@ This is the final step in which the obtained output and the data model data and 
 The action of process data to gain patterns, and to gain knowledge on that pattern. In the process of data mining, large data sets are first sorted, then patterns are identified and relationships are established to perform data analysis and solve problems.
 
 * Data Mining is divided in some areas:
-
-  <center> <img src="./data/data-mining.drawio.svg"/> </center>
+<center> <img src="./data/data-mining.drawio.svg"/> </center>
 ----
 
 ### **Data Distribution** :
