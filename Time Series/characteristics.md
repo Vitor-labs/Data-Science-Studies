@@ -26,4 +26,11 @@ That can be splited in two forms
    - Additive: that assumes that the observated data is the sum of the 3 effects, pretty rare for actual time series to have constant crest and trough values.
    - Multiplicative: assumes that the observated data is the multiplication of the 3 effects
 
-3. Auto Correlation: 
+Seasonality can be removed from the series. This process is called Seasonal Adjustment, or Deseasonalizing. 
+
+1. Auto Correlation: Correlation p(x,y) measures the similarity in the change of values of two series, in this case we only have a single variable. Auto correlation measures the correlation between a sequence and itself.
+   
+   - The Auto Correlation Function measures the correlation between diferent lags. It may capture secondary effects.
+
+   - The Partial Auto Correlation Function measures only the direct relationship between the series and it's lag. It cancels out all additional channels a previous period value affects the present one.
+
