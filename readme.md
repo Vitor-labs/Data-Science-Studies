@@ -32,15 +32,3 @@ _"A program is said to learn from experience E, with respect to some task T and 
     - Common Algorithims: K-Means, Apriori, Hierarchical Clustering.
 
 - **Reinfocement** - agent learning in interactive environment based on rewards and penalities, the agent is allowed to determine the ideal behavior to maximize its performance.
-----
-### **Data Division and Overfitting** :
-We divide our data into two sets, Training and Testing, with this we test the model with diferent data, after we are done, to evaluating our model.
-
-Overfitting the training data - means that the model performs well on the training data, but it does not generalize well.    
-
-Solution to this problem is 
-- gather more data,
-- reduce the noise in the training data,
-- use regularization 
-
-Anomaly Detection - used to identify unusual patterns that does not conform to expected behavior.
