@@ -1,12 +1,10 @@
-# importing libraries
-import pandas
-import scipy
 import numpy
+import pandas
 from sklearn.preprocessing import MinMaxScaler, Binarizer, StandardScaler, LabelEncoder
 
-# data set link
+
 URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data"
-# data parameters
+
 names = ['Alcohol','Malic acid','Ash Alcalinity of ash',
         'Magnesium','Total phenols','Flavanoids',
         'Nonflavanoid phenols','Proanthocyanins','Color intensity',
