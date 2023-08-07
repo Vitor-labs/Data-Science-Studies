@@ -42,3 +42,9 @@ CRISP-ML(Q) is implemented with 6 stages as follows:
 4. Evaluation
 5. Model Deployment
 6. Monitoring and Maintenance 
+
+And for each phase the quality assurance approach in CRISP-ML(Q) requires the definition of requirements and constraints, instantiation of the specific tasks, specification of risks that might negatively impact the efficiency and success of the ML application, quality assurance methods to mitigate risks when these risks need to be diminished. As Following:
+
+<center> <img src="./../Assets/quality.drawio.svg"/> </center>
+
+
