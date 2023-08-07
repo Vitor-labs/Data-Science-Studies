@@ -78,11 +78,34 @@ CRISP-ML(Q) is implemented with 6 stages as follows:
     Finally, we package the ML workflow in a pipeline to create repeatable model training during the modeling phase.
 
 4. ## Evaluation
-   
-5. Model Deployment
-6. Monitoring and Maintenance 
+    Here, the performance of the trained model needs to be validated on a test set. Additionally, the model robustness should be assessed using noisy or wrong input data. Furthermore, it is best practice to develop an explainable ML model to provide trust, meet regulatory requirements, and govern humans in ML-assisted decisions.
+
+    Finally, the model deployment decision should be met automatically based on success criteria or manually by domain and ML experts. All outcomes of the evaluation phase need to be documented.
+
+5. ## Model Deployment
+    The ML model deployment denotes a process of the ML model integration into the existing software system. Deployment approaches are specified during the first phase of the ML development life cycle. These approaches will differ depending on the use case and the training and prediction modus, either batch or online.
+
+    The ML model deployment includes the following tasks: inference hardware definition, model evaluation in a production environment, providing user acceptance and usability testing, providing a fall-back plan for model outages, and setting up the deployment strategy to roll out the new model gradually.
+
+
+6. ## Monitoring and Maintenance 
+    When an ML model performs on real-world data, the main risk is the “model staleness” effect when the performance of the ML model drops as it starts operating on unseen data.
+
+    Model performance is affected by hardware performance and the existing software stack. For this, perform the monitoring task when the model performance is continuously evaluated to decide whether the model needs to be re-trained. This is known as the Continued Model Evaluation pattern. The decision from the monitoring task leads to the second task - updating the ML model.
+
+    Additionally to monitoring and re-training, reflecting on the business use case and the ML task might be valuable for adjusting the ML process.
 
 And for each phase the quality assurance approach in CRISP-ML(Q) requires the definition of requirements and constraints, instantiation of the specific tasks, specification of risks that might negatively impact the efficiency and success of the ML application, quality assurance methods to mitigate risks when these risks need to be diminished. As Following:
 
 <center> <img src="./../Assets/quality.drawio.svg"/> </center>
 
+The following table sumarizes the CRISP-ML(Q) core phases and the corresponding tasks:
+
+| Phase | Tasks |
+|-------|-------|
+| Business and Data Understanding | - Define business objectives - Translate business objectives into ML objectives - Collect and verify data - Assess the project feasibility - Create POC |
+| Data Engineering | - Feature selection - Data selection - Class balancing - Cleaning data (noise reduction, data imputation) - Feature engineering (data construction) - Data augmentation - Data standartization |
+|ML Model Engineering | - Define quality measure of the model - ML algorithm selection (baseline selection) - Adding domain knowledge to specialize the model - Model training - Optional: applying trainsfer learning (using pre-trained models) - Model compression - Ensemble learning - Documenting the ML model and experiments |
+| ML Model Evaluation |	- Validate model's performance - Determine robustess - Increase model's explainability - Make a decision whether to deploy the model - Document the evaluation phase |
+| Model Deployment | - Evaluate model under production condition - Assure user acceptance and usability - Model governance - Deploy according to the selected strategy (A/B testing, multi-armed bandits) |
+| Model Monitoring and Maintenance | - Monitor the efficiency and efficacy of the model prediction serving - Compare to the previously specified success criteria (thresholds) - Retrain model if required - Collect new data - Perform labelling of the new data points - Repeat tasks from the *Model Engineering* and *Model Evaluation* phases - Continuous, integration, training, and deployment of the model |
