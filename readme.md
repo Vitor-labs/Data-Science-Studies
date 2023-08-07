@@ -32,3 +32,4 @@ _"A program is said to learn from experience E, with respect to some task T and 
     - Common Algorithims: K-Means, Apriori, Hierarchical Clustering.
 
 - **Reinfocement** - agent learning in interactive environment based on rewards and penalities, the agent is allowed to determine the ideal behavior to maximize its performance.
+
