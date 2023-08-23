@@ -6,7 +6,7 @@
 *“Better data beats fancier algorithms”*. Steps involved in Data Cleaning: 
 
 1. Removal of unwanted observations 
-   This includes deleting duplicate redundant or irrelevant values from your dataset.  Redundant observations alter the efficiency by a great extent as the data repeats and  may add towards the correct side or towards the incorrect side, thereby producing unfaithful results.
+   This includes deleting duplicate redundant or irrelevant values from your dataset. Redundant observations alter the efficiency by a great extent as the data repeats and may add towards the correct side or towards the incorrect side, thereby producing unfaithful results.
 
 2. Fixing Structural errors 
     The errors that arise during measurement, transfer of data, or other similar situations, include typos in the name of features, the same attribute with a different name, mislabeled classes, i.e. separate classes that should really be the same, or inconsistent capitalization. 
@@ -33,3 +33,4 @@
 ```python
 sns.distplot(dataset['variable-to-visualize'])
 ```
+

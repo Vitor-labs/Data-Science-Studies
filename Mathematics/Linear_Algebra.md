@@ -2,25 +2,28 @@
 
 Linear algebra deals with vectors, matrices, and linear transformations. It provides a powerful framework for solving systems of linear equations and analyzing geometric transformations.
 
-Key Concepts:
+[Key Concepts](#key-concepts)
 
-    Vectors and Scalars: Vectors represent quantities with both magnitude and direction, while scalars are single numerical values. Vectors can be added, subtracted, and scaled.
+## Key Concepts:
 
-    Vector Spaces: A vector space is a set of vectors that satisfy specific properties, including closure under addition and scalar multiplication.
+1. Vectors and Scalars: Vectors represent quantities with both magnitude and direction, while scalars are single numerical values. Vectors can be added, subtracted, and scaled.
 
-    Matrices and Matrix Operations: Matrices are rectangular arrays of numbers. Common operations include addition, subtraction, multiplication, and transpose.
+2. Vector Spaces: A vector space is a set of vectors that satisfy specific properties, including closure under addition and scalar multiplication.
 
-    Linear Transformations: These are functions that map vectors from one vector space to another while preserving linear relationships. They play a crucial role in geometry and computer graphics.
+3. Matrices and Matrix Operations: Matrices are rectangular arrays of numbers. Common operations include addition, subtraction, multiplication, and transpose.
 
-    Eigenvalues and Eigenvectors: Eigenvalues are scalars that represent how a linear transformation stretches or shrinks a vector. Eigenvectors are the corresponding non-zero vectors.
+4. Linear Transformations: These are functions that map vectors from one vector space to another while preserving linear relationships. They play a crucial role in geometry and computer graphics.
 
-    Matrix Decompositions:
-        Singular Value Decomposition (SVD): Expresses a matrix as a product of three matrices, aiding in dimensionality reduction and data compression.
-        Eigenvalue Decomposition: Represents a matrix as a product of its eigenvectors and a diagonal matrix of eigenvalues.
+5. Eigenvalues and Eigenvectors: Eigenvalues are scalars that represent how a linear transformation stretches or shrinks a vector. Eigenvectors are the corresponding non-zero vectors.
 
-    Dot Product and Inner Product: The dot product measures the similarity between two vectors, and the inner product generalizes this concept to more abstract vector spaces.
+6. Matrix Decompositions:
+    6.1. Singular Value Decomposition (SVD): Expresses a matrix as a product of three matrices, aiding in dimensionality reduction and data compression.
+    
+    6.2. Eigenvalue Decomposition: Represents a matrix as a product of its eigenvectors and a diagonal matrix of eigenvalues.
 
-    Orthogonality: Orthogonal vectors are perpendicular to each other, and an orthogonal basis simplifies vector calculations.
+7. Dot Product and Inner Product: The dot product measures the similarity between two vectors, and the inner product generalizes this concept to more abstract vector spaces.
 
-    Span and Linear Independence: A set of vectors spans a space if any vector in the space can be expressed as a linear combination of the set's vectors. Linearly independent vectors are not redundant.
+8. Orthogonality: Orthogonal vectors are perpendicular to each other, and an orthogonal basis simplifies vector calculations.
+
+9. Span and Linear Independence: A set of vectors spans a space if any vector in the space can be expressed as a linear combination of the set's vectors. Linearly independent vectors are not redundant.
 
