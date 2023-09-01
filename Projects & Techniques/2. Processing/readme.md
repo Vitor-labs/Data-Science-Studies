@@ -1,8 +1,6 @@
 ### Table of Contents
 - [**Data Processing** :](#data-processing-)
-- [This is the final step in which the obtained output and the data model data and all the useful information are saved for future use.](#this-is-the-final-step-in-which-the-obtained-output-and-the-data-model-data-and-all-the-useful-information-are-saved-for-future-use)
 - [**Feature Scaling**](#feature-scaling)
-- [$$](#)
 - [**Label Encoding**](#label-encoding)
 - [**Imbalanced Data Distribution**](#imbalanced-data-distribution)
 - [**Dummy Variables**](#dummy-variables)
@@ -29,8 +27,8 @@ In this stage, results are procured by the machine in a meaningful manner which 
 
 6. Storage. 
 This is the final step in which the obtained output and the data model data and all the useful information are saved for future use.
-----
 
+----
 ## **Feature Scaling**
 technique to standardize the independent features present in the data in a fixed range. It is performed during the data pre-processing, to handle highly varying magnitudes or values or units, this way, no feature can dominate others. 
 
@@ -66,8 +64,8 @@ The distance can be calculated between centroid and data point using these metho
   $$
   d(x, y)=\sum_{k=1}^{n}\left|x_{k}-y_{k}\right|  
   $$
-----
 
+----
 ## **Label Encoding**
 refers to converting the labels into a numeric form so as to convert them into the machine-readable form
 
