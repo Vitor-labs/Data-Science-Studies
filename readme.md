@@ -1,4 +1,4 @@
-## <center>MACHINE LEARNING COURSE</center>
+## <center>DATA SCIENCE & MACHINE LEARNING COURSE</center>
 ----
 Field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks. 
 
