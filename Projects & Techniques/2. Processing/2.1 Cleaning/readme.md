@@ -1,6 +1,8 @@
 ### Table of Contents
 - [**Data Cleaning**](#data-cleaning)
-- [Dropping Duplicated Values](#dropping-duplicated-values)
+- [Dropping Unwanted Values](#dropping-unwanted-values)
+- [Handling outliers](#outliers)
+  - [ML Solutions](#machine-learning-models-solutions)
 - [Seeding Data Techniques](#seeding-data-techniques)
 
 ## **Data Cleaning**
