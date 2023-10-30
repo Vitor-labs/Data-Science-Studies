@@ -134,7 +134,7 @@ In probability theory, normal or Gaussian distribution is a continuous probabili
 
 For achieving better results from the applied model in Machine Learning projects the format of the data has to be in a proper manner. 
 
-Another aspect is that the data set should be formatted in such a way that more than one Machine Learning and Deep Learning algorithm are executed in one data set, and best out of them is chosen.
+Another aspect is that the data set should be formatted in such a way that more than one Machine Learning and Deep Learning algorithm are executed in one data set, and best out of them is chosen. See transformations.py to more details.
 
 1. Rescale Data  
    When our data is comprised of attributes with varying scales, many machine learning algorithms can benefit from rescaling the attributes to all have the same scale.

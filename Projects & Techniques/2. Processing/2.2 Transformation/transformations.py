@@ -1,6 +1,6 @@
 import numpy
 import pandas
-from sklearn.preprocessing import MinMaxScaler, Binarizer, StandardScaler, LabelEncoder
+from sklearn.preprocessing import MinMaxScaler, Binarizer, StandardScaler
 
 
 URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data"
@@ -32,6 +32,7 @@ standard = StandardScaler().fit(X)
 standardedX = standard.transform(X)
 
 numpy.set_printoptions(precision=3)
+
 print(rescaledX[0:5,:])
-print(binaryX[0:5,:])
-print(standardedX[0:5,:])
+print(binaryX[0:5,:]) # type: ignore
+print(standardedX[0:5,:]) # type: ignore
