@@ -114,8 +114,10 @@ The choice of technique depends on the nature of the data and the specific goals
 Handling missing data is an important aspect of data preprocessing in machine learning and data analysis. There are various techniques for seeding data to handle missing data
 
 1. Analyse the distribution of data. To visualize the distribution plot, using seaborn:
+
 ```python
 sns.distplot(dataset['variable-to-visualize'])
+```
 
 There are various techniques and methods to do some inputation 
 
