@@ -95,13 +95,15 @@ Handling outliers is an important step in data preprocessing to ensure that extr
 9. Imputation:
    - Replace outliers with more reasonable values, which can be done using imputation techniques like mean, median, or regression-based imputation.
 
-10. **Clustering and Segmentation:**
+### Machine Learning Models Solutions
+
+1. **Clustering and Segmentation:**
     - Segment the data into clusters and analyze each cluster separately, potentially reducing the impact of outliers in the overall analysis.
 
-11. **Ensemble Methods:**
+2. **Ensemble Methods:**
     - Use ensemble techniques like Random Forest, which are less sensitive to individual data points, to model the data.
 
-12. **Anomaly Detection Algorithms:**
+3. **Anomaly Detection Algorithms:**
     - Employ dedicated anomaly detection algorithms, such as Isolation Forest, One-Class SVM, or Local Outlier Factor, to explicitly identify and handle outliers.
 
 The choice of technique depends on the nature of the data and the specific goals of your analysis or modeling. It's important to carefully consider the impact of outlier handling on your results and to document the steps taken during preprocessing.
