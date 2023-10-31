@@ -2,6 +2,15 @@
 
 Data transformation involves technically converting data from one format, standard, or structure to another, without changing the dataset’s content. This is typically done to prepare the data for consumption by an application or user, or to enhance data quality.
 
+### Table of Contents
+- [Data Transformation](#data-transformation)
+    - [Table of Contents](#table-of-contents)
+  - [Data aggregation](#data-aggregation)
+  - [Feature Engineering](#feature-engineering)
+    - [Scaling](#scaling)
+    - [Normalization](#normalization)
+    - [Standardization](#standardization)
+
 ## Data aggregation
 method used to present data in a summarized form. Given the likelihood of data originating from diverse sources, combining all incoming data into a cohesive description is the essence of data aggregation. 
 
