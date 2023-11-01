@@ -1,7 +1,7 @@
 # <center> Classification:
 Generalizing, in machine learning and statistics, classification is a supervised learning approach in which the computer program learns from the data given to it and makes new observations or classifications, is the process of finding a model that describes and distinguishes data classes and concepts.  
 
-<center> <img src="../data/classification.drawio.svg"/> </center>
+<center> <img src="../../Assets//classification.drawio.svg"/> </center>
 
 Where:
 - X: pre-classified data, in the form of an N*M matrix. N is the no. of observations and M is the number of features
@@ -17,7 +17,7 @@ _**Types of Classification**_ :
 1. Binary: When we have to categorize given data into 2 distinct classes, also called as Simple.
 2. Multiclass: The number of classes is N, wherm N $ \gt $ 2.
 3. Discriminative: determines just one class for each row of data. It tries to model just by depending on the observed data, depends heavily on the quality of data rather than on distributions. Example: Logistic Regression 
-1. Generative: Models the distribution of individual classes and tries to learn the model that generates the data behind the scenes by estimating assumptions and distributions of the model. Used to predict the unseen data. Example: Naive Bayes Classifier 
+4. Generative: Models the distribution of individual classes and tries to learn the model that generates the data behind the scenes by estimating assumptions and distributions of the model. Used to predict the unseen data. Example: Naive Bayes Classifier 
 
 There are various types of classifiers. Some of them are : 
 
