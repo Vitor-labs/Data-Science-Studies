@@ -10,6 +10,7 @@ Data transformation involves technically converting data from one format, standa
     - [Scaling](#scaling)
     - [Normalization](#normalization)
     - [Standardization](#standardization)
+  - [Imbalanced Data](#imbalanced-data)
 
 ## Data aggregation
 method used to present data in a summarized form. Given the likelihood of data originating from diverse sources, combining all incoming data into a cohesive description is the essence of data aggregation. 
@@ -44,3 +45,15 @@ Approach to standardize feature values within a dataset to a consistent scale. T
 ### Standardization
 
 Some form of scaling, involves centering values around the mean and adjusting the standard deviation to one unit. This process involves eliminating the mean and adjusting the scale to unit variance, ultimately resulting in a mean of 0 and a standard deviation of 1. This aligns the data with a standard normal distribution.
+
+
+## Imbalanced Data
+
+In some cases, a datasets has a distribution of observations within the target class is uneven. The approaches to this case summarizes in Downsampling and Upsampling. Here some techniques to handling imbalanced data set problem:
+
+1. Choose Proper Evaluation Metric: An initial consideration is the nature of the challenge you aim to address in your Machine Learning endeavor. It's a classification or Regression problem ? Your choice of evaluation metrics, encompassing accuracy, precision, recall, or prediction error, will depend on the specific problem type.
+  
+2. Resampling (Oversampling or Undersampling) involves adjusting the sample size of either the minority or majority class, either increasing or decreasing it.
+
+3. SMOTE (Synthetic Minority Oversampling Technique) is an alternative approach for oversampling the minority class. Mere duplication of minority class records doesn’t usually bring new insights to the model. In SMOTE, new instances are created by synthesizing data from the existing records.
+

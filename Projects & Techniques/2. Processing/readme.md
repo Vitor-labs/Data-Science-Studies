@@ -1,11 +1,14 @@
-### Table of Contents
-- [**Data Processing** :](#data-processing-)
-- [**Feature Scaling**](#feature-scaling)
-- [**Label Encoding**](#label-encoding)
-- [**Imbalanced Data Distribution**](#imbalanced-data-distribution)
-- [**Dummy Variables**](#dummy-variables)
-- [**Data Distribution** :](#data-distribution-)
-- [**Data Preprocessing** :](#data-preprocessing-)
+# Processing Data Step
+
+**Table of Contents**
+- [Processing Data Step](#processing-data-step)
+  - [**Data Processing** :](#data-processing-)
+  - [**Feature Scaling**](#feature-scaling)
+  - [**Label Encoding**](#label-encoding)
+  - [**Imbalanced Data Distribution**](#imbalanced-data-distribution)
+  - [**Dummy Variables**](#dummy-variables)
+  - [**Data Distribution** :](#data-distribution-)
+  - [**Data Preprocessing** :](#data-preprocessing-)
 
 ## **Data Processing** :
 Data Processing is the task of converting data from a given form to a much more usable and desired form i.e. making it more meaningful and informative. The output of this complete process can be in any desired form like graphs, videos, charts, tables, images, and many more, depending on the task we are performing and the requirements of the machine. Can be divided in the following steps:
