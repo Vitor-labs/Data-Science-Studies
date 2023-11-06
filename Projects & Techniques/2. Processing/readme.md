@@ -38,13 +38,13 @@ technique to standardize the independent features present in the data in a fixed
   * If feature scaling is not done, then a machine learning algorithm tends to weigh greater values, higher and consider smaller values as the lower values, regardless of the unit of the values.
 
   * Standardization replaces the values with their Z scores. 
-  $ z=\frac{x-\mu}{\sigma} $
+  $$ z=\frac{x-\mu}{\sigma} $$
 
 Techniques to perform Feature Scaling:
   - Min-Max Normalization: This technique re-scales a feature or observation value with distribution value between 0 and 1.
-  $ X_{\text {new }}=\frac{X_{i}-\min (X)}{\max (x)-\min (X)} $
+  $$ X_{\text {new }}=\frac{X_{i}-\min (X)}{\max (x)-\min (X)} $$
   - Standardization: It is a very effective technique which re-scales a feature value so that it has distribution with 0 mean value and variance equals to 1.
-  $ X_{\text {new }}=\frac{X_{i}-X_{\text {mean }}}{\text { Standard Deviation }} $
+  $$ X_{\text {new }}=\frac{X_{i}-X_{\text {mean }}}{\text { Standard Deviation }} $$
 
 Once the model is trained, an N-dimensional (where N is the no. of features present in the dataset) graph with data points from the given dataset, can be created. 
 
